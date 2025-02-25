@@ -72,9 +72,9 @@ export default function BookmarksScreen() {
         <TouchableOpacity
           style={[styles.backButton, { backgroundColor: itemBackgroundColor }]}
           onPress={handleBackToPage1}
-          accessibilityLabel="Back to Page 1"
+          accessibilityLabel="Back"
         >
-          <ThemedText style={[styles.backButtonText, { color: textColor }]}>Back to Page 1</ThemedText>
+          <ThemedText style={[styles.backButtonText, { color: textColor }]}>Back</ThemedText>
         </TouchableOpacity>
         <ThemedText style={[styles.title, { color: textColor }]}>Bookmarks</ThemedText>
         <TouchableOpacity

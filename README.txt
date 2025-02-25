@@ -7,6 +7,9 @@ Initialize: npx create-expo-app@latest && npx expo install lottie-react-native &
 Run Project: npx expo start -c
 
 Build APK: https://docs.expo.dev/build-reference/apk/
+npm install --global expo-cli eas-cli
+
+
 
 Refs:
 https://docs.expo.dev/tutorial/create-your-first-app/
